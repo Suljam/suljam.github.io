@@ -1,0 +1,3 @@
+name: Suleiman Leadbitter | Designer, Developer, Illustrator
+markdown: redcarpet
+exclude: ["node_modules", "gulpfile.js", "package.json"]
