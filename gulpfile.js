@@ -48,17 +48,18 @@ gulp.task('browser-sync', ['stylus', 'jekyll-build'], function() {
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
-gulp.task('sass', function () {
-    return gulp.src('assets/scss/main.scss')
-        .pipe(sass({
-            includePaths: ['css'],
-            onError: browserSync.notify
-        }))
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/assets/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('assets/css'));
-});
+
+// gulp.task('sass', function () {
+//     return gulp.src('assets/scss/main.scss')
+//         .pipe(sass({
+//             includePaths: ['css'],
+//             onError: browserSync.notify
+//         }))
+//         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+//         .pipe(gulp.dest('_site/assets/css'))
+//         .pipe(browserSync.reload({stream:true}))
+//         .pipe(gulp.dest('assets/css'));
+// });
 
 
 /**
@@ -100,7 +101,14 @@ gulp.task('jadelayouts', function(){
   .pipe(gulp.dest('_layouts'));
 });
 
-gulp.task('jade', ['jadefiles', 'jadelayouts']);
+gulp.task('jadepages', function(){
+  return gulp.src('_jadepages/*.jade')
+  .pipe(jade())
+  .pipe(prettify({indent_size: 2}))
+  .pipe(gulp.dest('_pages'));
+});
+
+gulp.task('jade', ['jadefiles', 'jadelayouts', 'jadepages']);
 
 /**
  * Watch scss files for changes & recompile
@@ -108,8 +116,8 @@ gulp.task('jade', ['jadefiles', 'jadelayouts']);
  */
 gulp.task('watch', function () {
     gulp.watch('assets/stylus/**', ['stylus']);
-    gulp.watch(['index.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
-    gulp.watch(['_jadefiles/*.jade', '_jadelayouts/*jade'], ['jade']);
+    gulp.watch(['index.html', '_layouts/*.html', '_includes/*', '_pages/*'], ['jekyll-rebuild']);
+    gulp.watch(['_jadefiles/*.jade', '_jadelayouts/*jade', '_jadepages/*.jade'], ['jade']);
 });
 
 /**

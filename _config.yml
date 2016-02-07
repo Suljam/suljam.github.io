@@ -1,3 +1,14 @@
+# Site Settings
 name: Suleiman Leadbitter | Designer, Developer, Illustrator
+title: Suljam | Designed with Standards
+email: sul@suljam.com
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, iste aliquam ea. Vel rem vitae dicta quidem at deserunt debitis quia illo autem, consequuntur architecto atque, molestiae. Illo veniam quisquam ad laborum.
+baseurl: ""
+url: http://suljam.com
+twitter_username: sulcalibur
+github_username: sulcalibur
+
+# Build Settings
 markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
+permalink: /:title
