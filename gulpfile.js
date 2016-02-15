@@ -100,7 +100,14 @@ gulp.task('jadelayouts', function(){
   .pipe(gulp.dest('_layouts'));
 });
 
-gulp.task('jade', ['jadefiles', 'jadelayouts']);
+gulp.task('jadepages', function(){
+  return gulp.src('_jadepages/*.jade')
+  .pipe(jade())
+  .pipe(prettify({indent_size: 2}))
+  .pipe(gulp.dest('_pages'));
+});
+
+gulp.task('jade', ['jadefiles', 'jadelayouts', 'jadepages']);
 
 /**
  * Watch scss files for changes & recompile

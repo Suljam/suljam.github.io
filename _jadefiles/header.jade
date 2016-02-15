@@ -1,25 +1,48 @@
-mixin nav-content()
-  ul
-    li: a(href="about") About
-    li: a(href="youtube") YouTube
-    li: a(href="mentoring") Mentoring
-    li: a(href="articles") Articles
-    li: a(href="vine") Vine
-    li: a(href="design") Design
-    li: a(href="notes") Notes
-    li: a(href="contact") Contact
-
-.mobile-nav
-  +nav-content()
-
+.logo
+  h1 Suljam
+  svg(width='105', height='60', viewbox='0 0 105 60', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink')
+    title logo
+    defs
+      path#a(d='M29.77 17.383L.402 34.46V.307L29.77 17.383z')
+      lineargradient#b(x1='0%', y1='100%', x2='50%', y2='19.99%')
+        stop(stop-color='#D9B37E', offset='0%')
+        stop(stop-color='#9B7C51', offset='100%')
+      path#d(d='M58.858 34.344v34.15L29.49 51.417l.008-.005L.13 34.338l29.366-17.073h-.002L.13 34.334V.186l29.366 17.073 29.362 17.075.01.005-.01.006z')
+      lineargradient#e(x1='100%', y1='71.193%', x2='0%', y2='71.193%')
+        stop(stop-color='#A8885B', offset='0%')
+        stop(stop-color='#D9B37E', offset='100%')
+      path#g(d='M29.5 34.293L.13 17.218 29.5.142v34.15z')
+      lineargradient#h(x1='100%', y1='0%', x2='50%', y2='79.004%')
+        stop(stop-color='#D9B37E', offset='0%')
+        stop(stop-color='#9B7C51', offset='100%')
+    g(fill='none', fill-rule='evenodd')
+      g(transform='rotate(90 2.8 32.47)')
+        mask#c(fill='#fff')
+          use(xlink:href='#a')
+        path(d='M29.77 17.383L.402 34.46V.307L29.77 17.383z', fill='url(#b)', mask='url(#c)')
+      g(transform='rotate(90 43.263 43.835)')
+        mask#f(fill='#fff')
+          use(xlink:href='#d')
+        path(d='M58.858 34.344v34.15L29.49 51.417l.008-.005L.13 34.338l29.366-17.073h-.002L.13 34.334V.186l29.366 17.073 29.362 17.075.01.005-.01.006z', fill='url(#e)', mask='url(#f)')
+      g(transform='rotate(90 52.14 52.713)')
+        mask#i(fill='#fff')
+          use(xlink:href='#g')
+        path(d='M.13 17.218L29.5.142v34.15L.13 17.22z', fill='url(#h)', mask='url(#i)')
 header
-  .header-position
-    h1.logo Sulcalibur
-    
-    nav.site-nav
-      +nav-content()
-      
-
-    a(href="mailto:alex@aadf.co").email-link +email me
-    
-    .mobile-nav-toggle: span
+  nav.navbar
+    ul
+      li
+        a(href='/') Home
+      li
+        a(href='portfolio.html') Portfolio
+      li
+        a(href='about.html') About Us
+      li
+        a(href='contact.html') Contact
+      li
+        a(href='articles/') Articles
+  .container
+    h2.wow.fadeIn(data-wow-duration='1s', data-wow-delay='0.5s')
+      | Designed 
+      span with
+      |  Standards
