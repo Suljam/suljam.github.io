@@ -9,5 +9,5 @@ twitter_username: sulcalibur
 github_username: sulcalibur
 
 # Build Settings
-markdown: redcarpet
+markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json"]
