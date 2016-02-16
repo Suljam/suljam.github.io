@@ -110,13 +110,13 @@ gulp.task('jadepages', function(){
 gulp.task('jade', ['jadefiles', 'jadelayouts', 'jadepages']);
 
 /**
- * Watch scss files for changes & recompile
+ * Watch stylus files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
     gulp.watch('assets/stylus/**', ['stylus']);
     gulp.watch(['index.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
-    gulp.watch(['_jadefiles/*.jade', '_jadelayouts/*jade'], ['jade']);
+    gulp.watch(['_jadefiles/*.jade', '_jadelayouts/*jade', '_jadepages/*.jade'], ['jade']);
 });
 
 /**
