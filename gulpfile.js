@@ -86,6 +86,13 @@ gulp.task('stylus', function() {
 /*
 * Doing some fancy Gulp stuff here
 */
+gulp.task('jaderoot', function(){
+  return gulp.src('*.jade')
+  .pipe(jade())
+  .pipe(prettify({indent_size: 2}))
+  .pipe(gulp.dest(''));
+});
+
 gulp.task('jadefiles', function(){
   return gulp.src('_jadefiles/*.jade')
   .pipe(jade())
@@ -107,7 +114,7 @@ gulp.task('jadepages', function(){
   .pipe(gulp.dest('_pages'));
 });
 
-gulp.task('jade', ['jadefiles', 'jadelayouts', 'jadepages']);
+gulp.task('jade', ['jaderoot', 'jadefiles', 'jadelayouts', 'jadepages']);
 
 /**
  * Watch stylus files for changes & recompile
@@ -116,7 +123,7 @@ gulp.task('jade', ['jadefiles', 'jadelayouts', 'jadepages']);
 gulp.task('watch', function () {
     gulp.watch('assets/stylus/**', ['stylus']);
     gulp.watch(['index.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
-    gulp.watch(['_jadefiles/*.jade', '_jadelayouts/*jade', '_jadepages/*.jade'], ['jade']);
+    gulp.watch(['**/*.jade'], ['jade']);
 });
 
 /**
