@@ -100,14 +100,10 @@ gulp.task('jadepages', function(){
 
 gulp.task('jade', ['jaderoot', 'jadefiles', 'jadelayouts', 'jadepages']);
 
-/**
- * Watch stylus files for changes & recompile
- * Watch html/md files, run jekyll & reload BrowserSync
- */
 gulp.task('watch', function () {
     gulp.watch('assets/stylus/**', ['stylus']);
-    gulp.watch(['index.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
     gulp.watch(['**/*.jade'], ['jade']);
+    gulp.watch(['index.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
 });
 
 /**
