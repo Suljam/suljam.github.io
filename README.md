@@ -1,6 +1,6 @@
 # Suljam | Designed _with_ Standards
 
-## [Suljam](http://suljam.com) web site build on Jekyll and hosted on [Github Pages](https://pages.github.com/)
+## [Suljam](http://suljam.com) web site built on Jekyll and hosted on [Github Pages](https://pages.github.com/)
 
 ## A little bit about this web site
 
