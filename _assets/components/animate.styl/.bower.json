@@ -1,0 +1,35 @@
+{
+  "name": "animate.styl",
+  "version": "1.0.5",
+  "homepage": "https://github.com/thecodechef/animate.styl",
+  "authors": [
+    "Jeremy Bolding <cyberchefjay@gmail.com>"
+  ],
+  "description": "The Official Stylus Port of Animate.css",
+  "main": "animate.styl",
+  "keywords": [
+    "animate",
+    "styl",
+    "stylus",
+    "css",
+    "animate.css",
+    "animate.styl"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.5",
+    "commit": "25acc717c4e8c78ccc69e88540eefab36a1be4c6"
+  },
+  "_source": "git://github.com/thecodechef/animate.styl.git",
+  "_target": "~1.0.4",
+  "_originalSource": "animate.styl"
+}
