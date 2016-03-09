@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="105px" height="60px" viewBox="0 0 105 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M29.7700829,17.3834286 L0.401703834,34.4590991 L0.401703834,0.307689999 L29.7700829,17.3834286 L29.7700829,17.3834286 Z"></path>
+        <linearGradient x1="0%" y1="100%" x2="50%" y2="19.9897538%" id="linearGradient-3">
+            <stop stop-color="#D9B37E" offset="0%"></stop>
+            <stop stop-color="#9B7C51" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-4" d="M58.8584562,34.344201 L58.8584562,68.4934975 L29.4900771,51.417827 L29.4981366,51.4131248 L0.13149673,34.3384765 L29.4960118,17.2650549 L29.493799,17.2637601 L0.13149673,34.3358869 L0.13149673,0.184545851 L29.4961742,17.2581038 L58.8584562,34.332752 L58.8682683,34.3384765 L58.8584562,34.344201 L58.8584562,34.344201 Z"></path>
+        <linearGradient x1="100%" y1="71.1932957%" x2="0%" y2="71.1932957%" id="linearGradient-6">
+            <stop stop-color="#A8885B" offset="0%"></stop>
+            <stop stop-color="#D9B37E" offset="100%"></stop>
+        </linearGradient>
+        <path id="path-7" d="M29.4998893,34.2934304 L0.13149673,17.2177599 L29.4998961,0.142089402 L29.4998893,34.2934304 L29.4998893,34.2934304 Z"></path>
+        <linearGradient x1="100%" y1="0%" x2="50%" y2="79.00388%" id="linearGradient-9">
+            <stop stop-color="#D9B37E" offset="0%"></stop>
+            <stop stop-color="#9B7C51" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-29.000000, -29.000000)">
+            <g id="Header-Module" sketch:type="MSLayerGroup" transform="translate(-38.000000, -64.000000)">
+                <g id="suljam-logo" transform="translate(119.250000, 123.433013) rotate(-300.000000) translate(-119.250000, -123.433013) translate(66.750000, 62.433013)">
+                    <g id="logo" transform="translate(52.672143, 60.980955) rotate(-330.000000) translate(-52.672143, -60.980955) translate(22.672143, 8.480955)">
+                        <g id="logo-bottom" transform="translate(29.098185, 69.583688)">
+                            <mask id="mask-2" sketch:name="Clip 2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M29.7700829,17.3834286 L0.401703834,34.4590991 L0.401703834,0.307689999 L29.7700829,17.3834286 L29.7700829,17.3834286 Z" id="Fill-1" fill="url(#linearGradient-3)" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                        </g>
+                        <g id="logo-main" transform="translate(0.000000, 17.754746)">
+                            <mask id="mask-5" sketch:name="Clip 17" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Clip-17"></g>
+                            <path d="M58.8584562,34.344201 L58.8584562,68.4934975 L29.4900771,51.417827 L29.4981366,51.4131248 L0.13149673,34.3384765 L29.4960118,17.2650549 L29.493799,17.2637601 L0.13149673,34.3358869 L0.13149673,0.184545851 L29.4961742,17.2581038 L58.8584562,34.332752 L58.8682683,34.3384765 L58.8584562,34.344201 L58.8584562,34.344201 Z" id="Fill-16" fill="url(#linearGradient-6)" sketch:type="MSShapeGroup" mask="url(#mask-5)"></path>
+                        </g>
+                        <g id="logo-top" transform="translate(0.000000, 0.000000)">
+                            <mask id="mask-8" sketch:name="Clip 20" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <g id="Clip-20"></g>
+                            <path d="M0.13149673,17.2177599 L29.4998961,0.142089402 L29.4998893,34.2934304 L0.13149673,17.2177599 Z" id="Fill-19" fill="url(#linearGradient-9)" sketch:type="MSShapeGroup" mask="url(#mask-8)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

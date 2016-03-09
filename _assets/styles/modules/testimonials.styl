@@ -1,0 +1,39 @@
+// Testimonials
+
+.testimonials
+  background-color lighten(primary, 10)
+  svgmask()
+  // transform rotate(-10deg)
+  overflow hidden
+  // margin-left -200px
+  // margin-right -200px
+  h3
+    color darken(primary, 10)
+  section
+    padding 2rem 0
+    +above(600px)
+      padding 200px 0
+    p, h6
+      lost-center
+      +above(600px)
+        lost-center 600px
+      text-align center
+      color white
+    p
+      font-family 'Baskerville', times, times-roman, serif
+      font-style italic
+      font-size responsive 18px 28px
+      margin-bottom 0
+      letter-spacing: 0.015em
+    .avatar
+      height 60px
+      width 60px
+      border-radius 100%
+      display: block;
+      margin auto
+    cite a
+      text-align center
+      display block
+      color darken(primary, 10)
+      text-decoration none
+      padding 1rem

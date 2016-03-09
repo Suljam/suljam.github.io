@@ -1,0 +1,29 @@
+// specialities
+.specialities
+  ul
+    max-width 600px
+    +below(1000px)
+      max-width 800px
+    +above(1000px)
+      max-width 1400px
+    margin auto
+    padding 0
+  li
+    list-style none
+    padding 30px 0
+    lost-column 1/1
+    // +below(480px)
+    +above(480px)
+      lost-column 1/2
+    +above(1000px)
+      lost-column 1/2
+    p
+      width 80%
+      display block
+      margin auto
+      // font-size responsive 1.1em 1.4em
+  svg
+    width 160px
+    height 160px
+    display block
+    margin auto

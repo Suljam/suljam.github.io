@@ -1,0 +1,52 @@
+// Rotating Animations
+
+@keyframes rotate
+  0%
+    transform rotate(0deg)
+  25%
+    opacity 1
+    scale 1.2
+  // 50%
+  75%
+    opacity 0.2
+    scale 0.4
+  100%
+    transform rotate(-360deg)
+
+@keyframes rotatereverse
+  0%
+    transform rotate(-360deg)
+  100%
+    transform rotate(0deg)
+
+// Layout
+
+.widthFull
+  width 100%
+  padding-left 2rem
+  padding-right 2rem
+
+// .widthMedium
+
+
+.widthSlight
+  width 80%
+
+
+svgmask()
+  clip-path polygon(0 10%, 100% 0, 100% 90%, 0% 100%)
+  +above(600px)
+    clip-path polygon(0 100%,100% 67%,100% 0, 0 33%)
+
+cleanup()
+  position relative!important
+  top 0!important
+  right 0!important
+  bottom 0!important
+  left 0!important
+  margin 0!important
+  padding 0!important
+
+errorCheck()
+  background-color rgba(red, 0.5)
+  border 2px solid rgba(green, 0.5)

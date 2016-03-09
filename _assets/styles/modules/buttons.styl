@@ -1,0 +1,37 @@
+// .btn
+.btncontainer
+  height 100px
+  lost-align center
+  display block
+  clear both
+  position relative
+.readmore, .btn
+  text-decoration none
+  color lighten(primary, 20)
+  border 2px solid fifth
+  transition: 0.2s ease-in-out all;
+  font-size 1.6rem
+  text-align center
+  background-color white
+  box-shadow -4px 4px 0px lighten(fifth, 10)
+  padding 0.5em 2em
+  outline 2px solid white
+  outline-offset 0px
+  +above(600px)
+    font-size 1.2rem
+  +below(600px)
+    width 50%
+  &:hover
+    color white
+    background fifth
+    outline 2px solid white
+    outline-offset 0px
+    border 2px solid darken(fifth, 10)
+    box-shadow -4px 4px 0px darken(fifth, 10)
+  &:active, &:focus
+    color darken(fifth, 40)
+    box-shadow none
+  &.pale
+    background-color rgba(white, 0)
+    box-shadow -4px 4px 0px lighten(primary, 10)
+    outline 2px solid primary

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="110px" height="100px" viewBox="0 0 110 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>sketch_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.24193548,27.5050595 L19.2752696,10.2577731 L35.8564062,3.22580645 L55.0403226,3.22580715 L55.0403226,93.9516129 L5.24193548,27.5050595 Z M104.83871,27.5050595 L90.8053756,10.2577731 L74.224239,3.22580645 L55.0403226,3.22580715 L55.0403226,93.9516129 L104.83871,27.5050595 Z" id="path-1"></path>
+    </defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icons" sketch:type="MSArtboardGroup" transform="translate(-469.000000, -182.000000)">
+            <g id="sketch_icon" sketch:type="MSLayerGroup" transform="translate(469.000000, 182.000000)">
+                <path d="M5.68434189e-14,26.7611323 L15.453712,7.75078989 L33.7131013,0 L54.8387097,7.72965468e-07 L54.8387097,100 L5.68434189e-14,26.7611323 Z M109.677419,26.7611323 L94.2237073,7.75078989 L75.964318,0 L54.8387097,7.72965468e-07 L54.8387097,100 L109.677419,26.7611323 Z" id="Mask-Copy" fill="#F56423" sketch:type="MSShapeGroup"></path>
+                <mask id="mask-2" sketch:name="Mask" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                <path d="M18.6960528,10.0735572 L34.1375536,18.6192666 L76.0175436,18.6192666 L92.0622795,9.56598097" id="Path-230" stroke="#F56423" stroke-width="3" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                <path d="M75.8580362,18.6157227 L90.7592773,37.7248456 L107.701062,25.6477602" id="Path-230" stroke="#F56423" stroke-width="3" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                <path d="M2.47093939,18.6157227 L17.3721806,37.7248456 L34.3139648,25.6477602" id="Path-230-Copy" stroke="#F56423" stroke-width="3" sketch:type="MSShapeGroup" mask="url(#mask-2)">
+                    <g transform="translate(18.392452, 28.170284) scale(-1, 1) translate(-18.392452, -28.170284) "></g>
+                </path>
+                <path d="M90.9447455,37.4972436 L54.2934492,95.6295438" id="Path-230" stroke="#F56423" stroke-width="3" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                <path d="M55.8641003,37.4972436 L19.2128041,95.6295438" id="Path-230-Copy-2" stroke="#F56423" stroke-width="3" sketch:type="MSShapeGroup" mask="url(#mask-2)">
+                    <g transform="translate(37.538452, 66.563394) scale(-1, 1) translate(-37.538452, -66.563394) "></g>
+                </path>
+                <path d="M19.8391822,37.7016129 L90.585438,37.7016129" id="Path-229" stroke="#F56423" stroke-width="3" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

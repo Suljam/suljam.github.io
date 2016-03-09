@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="100px" viewBox="0 0 88 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>kirby_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Icons" sketch:type="MSArtboardGroup" transform="translate(-283.000000, -182.000000)" fill="#FF0200">
+            <g id="kirby_logo" sketch:type="MSLayerGroup" transform="translate(283.000000, 182.000000)">
+                <path d="M43.9622642,0 L0,24.9685535 L0,74.8427673 L43.9622642,99.8113208 L87.9245283,74.8427673 L87.9245283,24.9685535 L43.9622642,0 L43.9622642,0 Z M63.5220126,50.9433962 L51.1949686,57.6100629 L51.1949686,58.490566 L63.5220126,58.490566 L63.5220126,68.1132075 L24.3396226,68.1132075 L24.3396226,58.490566 L36.6666667,58.490566 L36.6666667,57.5471698 L24.3396226,50.9433962 L24.3396226,38.9937107 L43.9622642,49.5597484 L63.5220126,38.9937107 L63.5220126,50.9433962 L63.5220126,50.9433962 Z" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

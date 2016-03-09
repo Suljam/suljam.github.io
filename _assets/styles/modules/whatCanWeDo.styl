@@ -1,0 +1,30 @@
+// whatcanwedo
+.whatcanwedo
+  lost-utility clearfix
+  display block
+  section
+    clear left
+    padding 4em 2em 0
+    display block
+    margin auto
+    max-width 1020px
+  img.featured
+    clip-path polygon(0 100%,100% 79%,100% 0, 0 21%)
+    // svgmask()
+    position relative
+    display block
+  .left
+    +above(600px)
+      height 600px
+      lost-column 6/12
+  .right
+    +above(600px)
+      lost-align right
+      lost-column 3/12
+      height 300px
+  > p
+    padding 2em
+    +above(600px)
+      float right
+      lost-column 4/12
+    // lost-utility clearfix

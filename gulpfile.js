@@ -5,10 +5,10 @@ var gulp         = require('gulp'),
     cp           = require('child_process'),
     jade         = require('gulp-jade'),
     prettify     = require('gulp-prettify'),
-    uglify       = require('gulp-uglify'),
-    rename       = require('gulp-rename'),
-    coffee       = require('gulp-coffee'),
-    concat       = require('gulp-concat'),
+    // uglify       = require('gulp-uglify'),
+    // rename       = require('gulp-rename'),
+    // coffee       = require('gulp-coffee'),
+    // concat       = require('gulp-concat'),
     sourcemaps   = require('gulp-sourcemaps'),
     lost         = require('lost'),
     autoprefixer = require('autoprefixer')
@@ -21,10 +21,15 @@ var messages = {
 /**
  * Build the Jekyll Site
  */
+// gulp.task('jekyll-build', function (done) {
+//     browserSync.notify(messages.jekyllBuild);
+//     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
+// });
+
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-        .on('close', done);
+    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
+    // return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'}).on('close', done);
 });
 
 /**
@@ -73,37 +78,37 @@ gulp.task('stylus', function() {
 gulp.task('jaderoot', function(){
   return gulp.src('*.jade')
   .pipe(jade())
-  // .pipe(prettify({indent_size: 2}))
+  .pipe(prettify({indent_size: 2}))
   .pipe(gulp.dest(''));
 });
 
 gulp.task('jadefiles', function(){
   return gulp.src('_jadefiles/*.jade')
   .pipe(jade())
-  // .pipe(prettify({indent_size: 2}))
+  .pipe(prettify({indent_size: 2}))
   .pipe(gulp.dest('_includes'));
 });
 
 gulp.task('jadelayouts', function(){
   return gulp.src('_jadelayouts/*.jade')
   .pipe(jade())
-  // .pipe(prettify({indent_size: 2}))
+  .pipe(prettify({indent_size: 2}))
   .pipe(gulp.dest('_layouts'));
 });
 
 gulp.task('jadepages', function(){
   return gulp.src('_jadepages/*.jade')
   .pipe(jade())
-  // .pipe(prettify({indent_size: 2}))
+  .pipe(prettify({indent_size: 2}))
   .pipe(gulp.dest('_pages'));
 });
 
 gulp.task('jade', ['jaderoot', 'jadefiles', 'jadelayouts', 'jadepages']);
 
 gulp.task('watch', function () {
-    gulp.watch('assets/stylus/**', ['stylus']);
-    gulp.watch(['**/*.jade'], ['jade']);
-    gulp.watch(['index.html', '_layouts/*.html', '_includes/*'], ['jekyll-rebuild']);
+    gulp.watch('assets/css/**', ['stylus']);
+    gulp.watch('**/*.jade', ['jade']);
+    // gulp.watch('**/*.html', ['jekyll-rebuild']);
 });
 
 /**
