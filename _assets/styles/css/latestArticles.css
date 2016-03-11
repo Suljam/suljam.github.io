@@ -1,0 +1,22 @@
+.latestArticlesContainer {
+  background-color: primary;
+  color: #fff;
+}
+.latestArticles ul {
+  padding: 0;
+  margin: 0;
+}
+.latestArticles ul li {
+  list-style: none;
+  padding-bottom: 1rem;
+above(600px)
+}
+.latestArticles h3 {
+  font-size: responsive 32px 48px;
+}
+.latestArticles h2,
+.latestArticles h3 {
+  color: fifth;
+  letter-spacing: 0.07em;
+}
+/*# sourceMappingURL=latestArticles.css.map */

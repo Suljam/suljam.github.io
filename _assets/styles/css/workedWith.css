@@ -1,0 +1,80 @@
+.workedWith ul {
+  padding: 0;
+  margin: 0;
+}
+.workedWith a {
+  text-indent: -7777px;
+  height: 150px;
+  width: auto;
+  position: absolute;
+  border: 1px solid #008000;
+}
+.workedWith li {
+  padding: 0;
+  margin: 0;
+  -webkit-transition: 0.9s ease-in-out all;
+  transition: 0.9s ease-in-out all;
+  height: 150px;
+  list-style: none;
+  opacity: 0.3;
+}
+.workedWith li:hover {
+  opacity: 1;
+}
+.workedWith .boagworld {
+  background: url("/assets/img/Boagworld_Logo_grey.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .boagworld:hover {
+  background: url("/assets/img/Boagworld_Logo.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .tijara {
+  background: url("/assets/img/tijaraPages_Logo_grey.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .tijara:hover {
+  background: url("/assets/img/tijaraPages_Logo.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .sos {
+  background: url("/assets/img/SOS_Logo_grey.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .sos:hover {
+  background: url("/assets/img/SOS_Logo.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .westmid {
+  background: url("/assets/img/westMid_logo_grey.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .westmid:hover {
+  background: url("/assets/img/westMid_Logo.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .pentangle {
+  background: url("/assets/img/pentangle_Logo_grey.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .pentangle:hover {
+  background: url("/assets/img/pentangle_Logo.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .orphanaid {
+  background: url("/assets/img/orphanAid_Logo_grey.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .orphanaid:hover {
+  background: url("/assets/img/orphanAid_Logo.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .staremix {
+  background: url("/assets/img/staremix_Logo_grey.png") center left no-repeat;
+  background-size: 100% auto;
+}
+.workedWith .staremix:hover {
+  background: url("/assets/img/staremix_Logo.png") center left no-repeat;
+  background-size: 100% auto;
+}
+/*# sourceMappingURL=workedWith.css.map */

@@ -1,0 +1,24 @@
+.specialities ul {
+  max-width: 600px;
+below(1000px)
+above(1000px)
+  margin: auto;
+  padding: 0;
+}
+.specialities li {
+  list-style: none;
+  padding: 30px 0;
+above(480px)
+}
+.specialities li p {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.specialities svg {
+  width: 160px;
+  height: 160px;
+  display: block;
+  margin: auto;
+}
+/*# sourceMappingURL=specialities.css.map */

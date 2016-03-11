@@ -11,12 +11,12 @@
   li
     list-style none
     padding 30px 0
-    lost-column 1/1
+    column(1/1)
     // +below(480px)
     +above(480px)
-      lost-column 1/2
-    +above(1000px)
-      lost-column 1/2
+      column(1/2, cycle: 2)
+    // +above(1000px)
+    //   column(1/2)
     p
       width 80%
       display block

@@ -1,0 +1,48 @@
+.serviceicons {
+  display: block;
+  width: 100%;
+}
+.serviceicons section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.serviceicons ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+.serviceicons li {
+  list-style: none;
+  display: inline;
+  padding: 4em;
+}
+.simply-scroll-container {
+  position: relative;
+}
+.simply-scroll-clip {
+  position: relative;
+  overflow: hidden;
+}
+.simply-scroll-list {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.simply-scroll-list li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.simply-scroll .simply-scroll-list li {
+  float: left;
+  width: 150px;
+  height: 170px;
+  padding: 1.59em;
+}
+div.simply-scroll-list {
+  width: 100%;
+}
+/*# sourceMappingURL=serviceIcons.css.map */

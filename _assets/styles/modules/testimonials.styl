@@ -3,6 +3,8 @@
 .testimonials
   background-color lighten(primary, 10)
   svgmask()
+  display block
+  clear left
   // transform rotate(-10deg)
   overflow hidden
   // margin-left -200px
@@ -14,9 +16,9 @@
     +above(600px)
       padding 200px 0
     p, h6
-      lost-center
+      // center()
       +above(600px)
-        lost-center 600px
+        center(600px)
       text-align center
       color white
     p

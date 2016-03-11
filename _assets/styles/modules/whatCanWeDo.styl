@@ -1,6 +1,6 @@
 // whatcanwedo
 .whatcanwedo
-  lost-utility clearfix
+  cf()
   display block
   section
     clear left
@@ -16,15 +16,14 @@
   .left
     +above(600px)
       height 600px
-      lost-column 6/12
+      column(6/12)
   .right
     +above(600px)
-      lost-align right
-      lost-column 3/12
+      align(right)
+      column(3/12)
       height 300px
   > p
     padding 2em
     +above(600px)
-      float right
-      lost-column 4/12
-    // lost-utility clearfix
+      // float right
+      column(4/12)

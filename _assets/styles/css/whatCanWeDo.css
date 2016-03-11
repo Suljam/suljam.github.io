@@ -1,0 +1,20 @@
+.whatcanwedo {
+  display: block;
+}
+.whatcanwedo section {
+  clear: left;
+  padding: 4em 2em 0;
+  display: block;
+  margin: auto;
+  max-width: 1020px;
+}
+.whatcanwedo img.featured {
+  clip-path: polygon(0 100%, 100% 79%, 100% 0, 0 21%);
+  position: relative;
+  display: block;
+}
+.whatcanwedo > p {
+  padding: 2em;
+above(600px)
+}
+/*# sourceMappingURL=whatCanWeDo.css.map */

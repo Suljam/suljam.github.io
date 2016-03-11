@@ -1,15 +1,16 @@
-
-// Bower Imports
-@import '../../../bower_components/normalize.styl/normalize.styl'
-@import '../../../bower_components/animate.styl/animate.styl'
-
 // NPM Imports
-@import 'typographic'
+// @import 'typographic'
+@import '../components/rupture-by-jenius/rupture/'
 @import 'nib'
+@import 'jeet'
+@import '../components/typographic/stylus/typographic.styl'
+@import '../components/animate.styl/source/base.styl'
 
 // Local Imports
 @import 'variables'
 @import 'mixins'
+
+// edit()
 
 // ----------------------------------------------
 
@@ -55,7 +56,7 @@ h2.feat
   display block
   text-align center
   overflow hidden
-  lost-center 960px
+  center(960px)
   +above(600px)
     &:before
       right .5em
@@ -74,17 +75,15 @@ h2.feat
 
 h3.feat
   font-weight 100
-  lost-column 1/1
+  column(1/1)
   font-size 2rem
   text-align center
   color primary
-  lost-utility clearfix
+  cf()
 
 .subheader
   font-family 'Raleway', 'Helvetica Neue', sans-serif
   color forth
-
-
 
 // h1, h2, h3, h4, h5, h6, ul,
 p

@@ -18,18 +18,9 @@ var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-/**
- * Build the Jekyll Site
- */
-// gulp.task('jekyll-build', function (done) {
-//     browserSync.notify(messages.jekyllBuild);
-//     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
-// });
-
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'}).on('close', done);
-    // return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'}).on('close', done);
 });
 
 /**
@@ -61,16 +52,48 @@ gulp.task('stylus', function() {
     // csswring
   ];
 
-  return gulp.src('assets/stylus/main.styl')
+  return gulp.src('_assets/stylus/styles.styl')
     .pipe(sourcemaps.init())
     .pipe(stylus())
     .pipe(postcss(processors))
     // .pipe(minifycss())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('_site/assets/css'))
+    // .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('assets/css'));
 });
+
+
+gulp.task('scriptspre', function() {
+  return gulp.src([
+                    // 'bower_components/modernizr/modernizr.js',
+                    'project/assets/scripts/scriptspre.js'
+                  ])
+    .pipe(sourcemaps.init())
+    .pipe(concat('pre.js'))
+    .pipe(sourcemaps.write())
+    .pipe(uglify())
+    .pipe(gulp.dest('../Build/Dev/assets/js/'))
+    .pipe(gulp.dest('../Build/CMS/assets/js/'));
+});
+
+gulp.task('scriptspost', function() {
+  return gulp.src([
+                    // 'bower_components/jquery/dist/jquery.js',
+                    // 'bower_components/wow.js/dist/wow.js',
+                    // 'bower_components/jquery-simplyscroll/jquery.simplyscroll.js',
+                    'project/assets/scripts/scriptspost.js',
+                  ])
+    .pipe(sourcemaps.init())
+    .pipe(concat('post.js'))
+    .pipe(sourcemaps.write())
+    .pipe(uglify())
+    .pipe(gulp.dest('../Build/Dev/assets/js/'))
+    .pipe(gulp.dest('../Build/CMS/assets/js/'));
+});
+
+
+
 
 /*
 * Doing some fancy Gulp stuff here
