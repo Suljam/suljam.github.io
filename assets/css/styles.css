@@ -411,6 +411,29 @@ footer .navbar ul li a {
     font-weight: 100;
   }
 }
+.index .logo {
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  background-color: rgba(70,98,159,0.95);
+  -webkit-clip-path: polygon(0 100%, 100% 20%, 100% 0, 0 0);
+  height: 200px;
+}
+@media only screen and (min-width: 480px) {
+  .index .logo {
+    -webkit-clip-path: polygon(0 100%, 100% 20%, 100% 0, 0 0);
+  }
+}
+@media only screen and (min-width: 480px) {
+  .index .logo {
+    height: 320px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .index .logo {
+    position: absolute;
+  }
+}
 @media only screen and (min-width: 600px) {
   .index .logo {
     margin-top: -770px !important;
@@ -596,7 +619,6 @@ header + h3 display block .number {
 .navbar {
   width: 100%;
   position: relative;
-  top: -40px;
 }
 @media only screen and (max-width: 600px) {
   .navbar {
