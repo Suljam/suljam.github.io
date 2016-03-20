@@ -9577,6 +9577,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/images\/paul_boag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42660,
+		"inputAbbreviatedPath": "\/_assets\/images\/paul_boag.jpg",
+		"outputAbbreviatedPath": "\/_assets\/images\/paul_boag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/images\/pentangle_Logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10008,6 +10019,15 @@
 		"resolveRelativeURLS": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0
+		},
+	"\/_assets\/styles\/css\/headerSection.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/styles\/css\/headerSection.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_assets\/styles\/css\/latestArticles.css": {
 		"fileType": 16,
@@ -12198,7 +12218,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/Boagworld_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/Boagworld_Logo_grey.png": {
 		"fileType": 32768,
@@ -12209,7 +12229,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/Boagworld_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/footer-bg.png": {
 		"fileType": 32768,
@@ -12319,7 +12339,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/sketch_icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/wordpress_logo.png": {
 		"fileType": 32768,
@@ -12363,7 +12383,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/orphanAid_Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/orphanAid_Logo@2x.png": {
 		"fileType": 32768,
@@ -12374,7 +12394,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/orphanAid_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/orphanAid_Logo@2x_grey.png": {
 		"fileType": 32768,
@@ -12385,7 +12405,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/orphanAid_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/orphanAid_Logo_grey.png": {
 		"fileType": 32768,
@@ -12396,7 +12416,18 @@
 		"outputAbbreviatedPath": "\/assets\/img\/orphanAid_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/assets\/img\/paul_boag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42660,
+		"inputAbbreviatedPath": "\/assets\/img\/paul_boag.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/paul_boag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/assets\/img\/pentangle_Logo.png": {
 		"fileType": 32768,
@@ -12418,7 +12449,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/pentangle_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/pentangle_Logo@2x_grey.png": {
 		"fileType": 32768,
@@ -12429,7 +12460,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/pentangle_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/pentangle_Logo_grey.png": {
 		"fileType": 32768,
@@ -12462,7 +12493,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/SOS_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/SOS_Logo@2x_grey.png": {
 		"fileType": 32768,
@@ -12473,7 +12504,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/SOS_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/SOS_Logo_grey.png": {
 		"fileType": 32768,
@@ -12517,7 +12548,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/staremix_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/staremix_Logo_grey.png": {
 		"fileType": 32768,
@@ -12528,7 +12559,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/staremix_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_1.jpg": {
 		"fileType": 16384,
@@ -12737,7 +12768,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/westMid_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/westMid_Logo_grey.png": {
 		"fileType": 32768,
