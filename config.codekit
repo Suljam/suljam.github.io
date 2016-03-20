@@ -9999,7 +9999,7 @@
 		"fileType": 8,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
+		"importCSS": 1,
 		"inputAbbreviatedPath": "\/_assets\/styles\/base.styl",
 		"outputAbbreviatedPath": "\/_assets\/css\/base.css",
 		"outputPathIsOutsideProject": 0,
@@ -10188,7 +10188,7 @@
 		"fileType": 8,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
+		"importCSS": 1,
 		"inputAbbreviatedPath": "\/_assets\/styles\/modules\/headerSection.styl",
 		"outputAbbreviatedPath": "\/_assets\/styles\/css\/headerSection.css",
 		"outputPathIsOutsideProject": 0,
@@ -10220,7 +10220,7 @@
 		"fileType": 8,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
+		"importCSS": 1,
 		"inputAbbreviatedPath": "\/_assets\/styles\/modules\/navBar.styl",
 		"outputAbbreviatedPath": "\/_assets\/styles\/css\/navBar.css",
 		"outputPathIsOutsideProject": 0,
@@ -10736,7 +10736,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10722,
+		"initialSize": 10697,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/orphanAid_Logo@2x.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/orphanAid_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -10747,7 +10747,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11318,
+		"initialSize": 11244,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/orphanAid_Logo@2x_grey.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/orphanAid_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
@@ -10758,7 +10758,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5534,
+		"initialSize": 5470,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/orphanAid_Logo_grey.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/orphanAid_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
@@ -10780,7 +10780,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5557,
+		"initialSize": 5520,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/pentangle_Logo@2x.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/pentangle_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
@@ -10791,7 +10791,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5835,
+		"initialSize": 5808,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/pentangle_Logo@2x_grey.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/pentangle_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
@@ -10879,7 +10879,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4451,
+		"initialSize": 4439,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/staremix_Logo@2x_grey.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/staremix_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
@@ -10890,7 +10890,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 2675,
+		"initialSize": 2612,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/staremix_Logo_grey.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/staremix_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
@@ -11099,7 +11099,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 19841,
+		"initialSize": 19685,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/westMid_Logo@2x_grey.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/westMid_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
@@ -11110,7 +11110,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 7118,
+		"initialSize": 7023,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/westMid_Logo_grey.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/westMid_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
@@ -12165,7 +12165,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/bg-temp.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/Boagworld_Logo.png": {
 		"fileType": 32768,
@@ -12176,7 +12176,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/Boagworld_Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/Boagworld_Logo@2x.png": {
 		"fileType": 32768,
@@ -12187,7 +12187,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/Boagworld_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/Boagworld_Logo@2x_grey.png": {
 		"fileType": 32768,
@@ -12220,7 +12220,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/footer-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/footer-bg@2x.png": {
 		"fileType": 32768,
@@ -12231,7 +12231,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/footer-bg@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/appstore_logo.png": {
 		"fileType": 32768,
@@ -12242,7 +12242,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/appstore_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/html5_logo.png": {
 		"fileType": 32768,
@@ -12253,7 +12253,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/html5_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/jekyll_logo.png": {
 		"fileType": 32768,
@@ -12264,7 +12264,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/jekyll_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/kirby_logo.png": {
 		"fileType": 32768,
@@ -12275,7 +12275,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/kirby_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/mailchimp_logo.png": {
 		"fileType": 32768,
@@ -12286,7 +12286,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/mailchimp_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/rubyonrails_logo.png": {
 		"fileType": 32768,
@@ -12297,7 +12297,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/rubyonrails_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/shopify_logo.png": {
 		"fileType": 32768,
@@ -12308,7 +12308,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/shopify_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/icons\/sketch_icon.png": {
 		"fileType": 32768,
@@ -12330,7 +12330,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/icons\/wordpress_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/kirby_logo copy 2.png": {
 		"fileType": 32768,
@@ -12341,7 +12341,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/kirby_logo copy 2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/kirby_logo copy 2@2x.png": {
 		"fileType": 32768,
@@ -12352,7 +12352,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/kirby_logo copy 2@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/orphanAid_Logo.png": {
 		"fileType": 32768,
@@ -12407,7 +12407,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/pentangle_Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/pentangle_Logo@2x.png": {
 		"fileType": 32768,
@@ -12440,7 +12440,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/pentangle_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/SOS_Logo.png": {
 		"fileType": 32768,
@@ -12451,7 +12451,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/SOS_Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/SOS_Logo@2x.png": {
 		"fileType": 32768,
@@ -12484,7 +12484,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/SOS_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/staremix_Logo.png": {
 		"fileType": 32768,
@@ -12495,7 +12495,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/staremix_Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/staremix_Logo@2x.png": {
 		"fileType": 32768,
@@ -12506,7 +12506,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/staremix_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/staremix_Logo@2x_grey.png": {
 		"fileType": 32768,
@@ -12539,7 +12539,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_10.jpg": {
 		"fileType": 16384,
@@ -12550,7 +12550,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_11.jpg": {
 		"fileType": 16384,
@@ -12561,7 +12561,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_12.jpg": {
 		"fileType": 16384,
@@ -12572,7 +12572,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_2.jpg": {
 		"fileType": 16384,
@@ -12583,7 +12583,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_3.jpg": {
 		"fileType": 16384,
@@ -12594,7 +12594,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_4.jpg": {
 		"fileType": 16384,
@@ -12605,7 +12605,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_5.jpg": {
 		"fileType": 16384,
@@ -12616,7 +12616,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_6.jpg": {
 		"fileType": 16384,
@@ -12627,7 +12627,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_7.jpg": {
 		"fileType": 16384,
@@ -12638,7 +12638,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_8.jpg": {
 		"fileType": 16384,
@@ -12649,7 +12649,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/suljam_9.jpg": {
 		"fileType": 16384,
@@ -12660,7 +12660,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/suljam_9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/tijaraPages_Logo.png": {
 		"fileType": 32768,
@@ -12671,7 +12671,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/tijaraPages_Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/tijaraPages_Logo@2x.png": {
 		"fileType": 32768,
@@ -12682,7 +12682,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/tijaraPages_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/tijaraPages_Logo@2x_grey.png": {
 		"fileType": 32768,
@@ -12693,7 +12693,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/tijaraPages_Logo@2x_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/tijaraPages_Logo_grey.png": {
 		"fileType": 32768,
@@ -12704,7 +12704,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/tijaraPages_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/westMid_Logo.png": {
 		"fileType": 32768,
@@ -12715,7 +12715,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/westMid_Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/westMid_Logo@2x.png": {
 		"fileType": 32768,
@@ -12726,7 +12726,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/westMid_Logo@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img\/westMid_Logo@2x_grey.png": {
 		"fileType": 32768,
@@ -12748,7 +12748,7 @@
 		"outputAbbreviatedPath": "\/assets\/img\/westMid_Logo_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/assets\/img2\/about-bg.jpg": {
 		"fileType": 16384,
@@ -14412,7 +14412,7 @@
 	"markdownProcessHTML": 0,
 	"markdownRandomFootnoteNumbers": 0,
 	"markdownUseCompatibilityMode": 0,
-	"reloadFileURLs": 0,
+	"reloadFileURLs": 1,
 	"sassAutoOutputPathEnabled": 1,
 	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",
