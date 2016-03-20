@@ -1,6 +1,7 @@
 .idea
 node_modules
 _assets/components/
+config.codekit
 
 # Created by https://www.gitignore.io
 
