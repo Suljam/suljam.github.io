@@ -8,7 +8,8 @@ This web site is built using the [Jekyll](http://jekyllrb.com/) static site buil
 
 ### Find me elsewhere
 - [Sulcalibur](http://sulcalibur.com) (Personal Blog)
+- [Suljam](http://suljam.com)
+- [Github](http://github.com/sulcalibur)
 - [Twitter](http://twitter.com/sulcalibur)
 - [Dribbble](http://dribbble.com/sulcalibur)
 - [Behance](http://behance.com/sulcalibur)
-- [Github](http://github.com/sulcalibur)
