@@ -1,4 +1,0 @@
----
-layout: default
-title: Suljam | Designed with Standards | Web Design &amp; Development
----

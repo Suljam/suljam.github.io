@@ -1,5 +1,6 @@
-include _yaml/index.txt
-| {% include header.html %} 
+include _yaml/index.yml    
+| {% include header.html %}   
+| 
 section.whatcanwedo
   h2.feat.wow.fadeIn(data-wow-duration='1s', data-wow-delay='0.5s') What can we do for you today?
   img.featured.left(src='assets/img/suljam_3.jpg')
@@ -147,7 +148,7 @@ section.whatcanwedo
       li.wordpress
         img(src='assets/img/icons/wordpress_logo.svg', alt='WordPress')
 |     
-.latestArticles
+//- .latestArticles
   h2.feat Our Latest Articles
   |       
   ul
@@ -183,7 +184,6 @@ section.whatcanwedo
       |             
       .btncontainer
         a.btn.wow.fadeIn(data-wow-duration='1s', data-wow-delay='0.5s', href='#', style='visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeIn;') Read More
-|     
 footer
   .footerbar
     nav.navbar
