@@ -17,7 +17,7 @@
     "gulp-jade": "^1.0.1",
     "gulp-postcss": "^6.0.0",
     "gulp-prettify": "^0.3.0",
-    "gulp-sourcemaps": "^1.5.2",
+    "gulp-sourcemaps": "^2.6.5",
     "gulp-stylus": "^2.0.7",
     "lost": "^6.6.2"
   },
